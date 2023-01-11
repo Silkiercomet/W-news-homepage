@@ -68,3 +68,14 @@ recentNews.forEach((e, i) => {
 });
 
 //recent news
+
+// mobile menu
+
+const menu = document.getElementById("mMobile")
+const sideMenu = document.getElementById("mMenu")
+menu.addEventListener("click", () => {
+  menu.classList.toggle("open")
+  sideMenu.classList.toggle("open")
+})
+
+// mobile menu
